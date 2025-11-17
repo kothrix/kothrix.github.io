@@ -1,0 +1,38 @@
+baseURL = "https://kothrix.github.io/"
+languageCode = "en-us"
+title = "Kothrix Docs"
+theme = "terminal"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 2
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = false
+  autoCover = true
+  showLastUpdated = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Terminal"
+
+    [languages.en.params]
+      subtitle = "A simple, retro theme for Hugo"
+
+      [languages.en.params.logo]
+        logoText = "Terminal"
+        logoHomeLink = "/"
+
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about"
+
+    [[languages.en.menu.main]]
+      identifier = "showcase"
+      name = "Showcase"
+      url = "/showcase"
